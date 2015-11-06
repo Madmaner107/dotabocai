@@ -1,0 +1,105 @@
+.pay-page
+{
+  background: url(/images/bg-pay.jpg) no-repeat;
+  background-position: center 41px ;
+  background-size: auto 185px;
+}
+
+.pay-page-body
+{
+  padding-top: 70px;
+  padding-left: 15px;
+}
+
+.pay-page-body .row .btn
+{
+  width: 28%;
+  margin-right: 4%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.pay-page-body .row
+{
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.pay-page-body .bonus-info
+{
+  color: #fff;
+  display: block;
+  margin-top: 8px;
+}
+
+.pay-page-body .gold-amount
+{
+  font-size: 21px;
+}
+
+.tron-btn-pay .icon
+{
+  width: 12px;
+  height: 12px;
+  background-size: 12px;
+  margin-right: 5px;
+}
+
+.payment-options
+{
+  list-style: none;
+  padding-left: 0;
+}
+
+.payment-option
+{
+  display: block;
+  padding-top: 13px !important;
+  padding-bottom: 13px !important;
+}
+
+.payment-options .payment-option:first-child
+{
+  /*border-bottom: 1px solid #4b4a50;*/
+}
+
+.payment-options .icon-option,
+.payment-options .icon-option-selected,
+.payment-options .icon-wechat,
+.payment-options .icon-alipay
+{
+  margin-right: 10px;
+}
+
+.pay-result-page
+{
+  text-align: center;
+}
+
+.pay-result-page p
+{
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.pay-result-page .btn
+{
+  width: 80%;
+}
+
+.pay-result-page .icon
+{
+  background-size: 15px;
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  display: inline-block !important;
+  transform: translateY(-.1em) !important;
+}
+
+.payment-method-choose-box
+{
+  background: #2a292f;
+}

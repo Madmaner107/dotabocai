@@ -1,0 +1,145 @@
+@charset "UTF-8";
+.item-image-wrapper {
+  position: relative;
+}
+/*
+  普通 common
+  稀有 uncommon
+  罕见 rare
+  神话 mythical
+  传说 legendary
+  不朽 immortal
+  至宝 ancient
+*/
+.common::before {
+  content: "普通";
+  background: #acc2d7;
+  color: #fff;
+  position: absolute;
+  width: 180px;
+  padding: 10px;
+  display: block;
+  -webkit-transform: rotate(-50deg);
+  -moz-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  -o-transform: rotate(-50deg);
+  transform: translate3d(0, 0, 1);
+  text-align: center;
+  bottom: 10px;
+  right: -80px;
+  font-size: .8em;
+  font-weight: 100; }
+
+.uncommon::before {
+  content: "稀有";
+  background: #3f64e6;
+  color: #fff;
+  position: absolute;
+  width: 180px;
+  padding: 10px;
+  display: block;
+  -webkit-transform: rotate(-50deg);
+  -moz-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  -o-transform: rotate(-50deg);
+  transform: translate3d(0, 0, 1);
+  text-align: center;
+  bottom: 10px;
+  right: -80px;
+  font-size: .8em;
+  font-weight: 100; }
+
+.rare::before {
+  content: "罕见";
+  background: #4d88bd;
+  color: #fff;
+  position: absolute;
+  width: 180px;
+  padding: 10px;
+  display: block;
+  -webkit-transform: rotate(-50deg);
+  -moz-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  -o-transform: rotate(-50deg);
+  transform: translate3d(0, 0, 1);
+  text-align: center;
+  bottom: 10px;
+  right: -80px;
+  font-size: .8em;
+  font-weight: 100; }
+
+.mythical::before {
+  content: "神话";
+  background: #7f44e3;
+  color: #fff;
+  position: absolute;
+  width: 180px;
+  padding: 10px;
+  display: block;
+  -webkit-transform: rotate(-50deg);
+  -moz-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  -o-transform: rotate(-50deg);
+  transform: translate3d(0, 0, 1);
+  text-align: center;
+  bottom: 10px;
+  right: -80px;
+  font-size: .8em;
+  font-weight: 100; }
+
+.legendary::before {
+  content: "传说";
+  background: #bd2fc2;
+  color: #fff;
+  position: absolute;
+  width: 180px;
+  padding: 10px;
+  display: block;
+  -webkit-transform: rotate(-50deg);
+  -moz-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  -o-transform: rotate(-50deg);
+  transform: translate3d(0, 0, 1);
+  text-align: center;
+  bottom: 10px;
+  right: -80px;
+  font-size: .8em;
+  font-weight: 100; }
+
+.immortal::before {
+  content: "不朽";
+  background: #d49f45;
+  color: #fff;
+  position: absolute;
+  width: 180px;
+  padding: 10px;
+  display: block;
+  -webkit-transform: rotate(-50deg);
+  -moz-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  -o-transform: rotate(-50deg);
+  transform: translate3d(0, 0, 1);
+  text-align: center;
+  bottom: 10px;
+  right: -80px;
+  font-size: .8em;
+  font-weight: 100; }
+
+.ancient::before {
+  content: "至宝";
+  background: #95c960;
+  color: #fff;
+  position: absolute;
+  width: 180px;
+  padding: 10px;
+  display: block;
+  -webkit-transform: rotate(-50deg);
+  -moz-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  -o-transform: rotate(-50deg);
+  transform: translate3d(0, 0, 1);
+  text-align: center;
+  bottom: 10px;
+  right: -80px;
+  font-size: .8em;
+  font-weight: 100; }

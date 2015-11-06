@@ -1,0 +1,62 @@
+.recap-cell
+{
+  border-bottom: 1px solid #2b2b32 !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  color: #fff;
+}
+
+.recap-cell .cell-title
+{
+  font-weight: bold;
+  font-size: 12px;
+  background: url(/images/bg-recap-title.png) no-repeat;
+  background-size: 71px 22px;
+  display: block;
+  height: 22px;
+  width: 72px;
+  line-height: 22px;
+  padding-left: 10px;
+}
+
+.recap-cell .cell-content
+{
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.recap-cell .team-ban-pick-info
+{
+  list-style: none;
+  padding-left: 0;
+  margin-left: 5px;
+  float: left;
+  width: 80%;
+}
+
+.recap-cell .team-ban-pick-info li
+{
+  display: block;
+  margin-right: 10px;
+  float: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.team-section .team-ban-pick-title
+{
+  color: #b4b4b4;
+  line-height: 21px;
+  float: left;
+}
+
+.team-section .team-name
+{
+  color: #ac8c5d;
+}
+
+.recap-cell .events
+{
+  list-style: none;
+  padding-left: 0;
+}

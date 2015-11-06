@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>积分商城</title>
+	<link rel="stylesheet" type="text/css" href="../css/app_pc.min.css">
+</head>
+<body>
+	<!--公共头部 S-->
+	<header>
+		<ul class="header-content header-nav">
+
+			<li class="logo">
+
+			</li>
+
+			<li class="nav-item nav-item-cur">首页</li>
+			<li class="nav-item">DOTA2</li>
+			<li class="nav-item">英雄联盟</li>
+			<li class="nav-item">赛事中心</li>
+			<li class="nav-item">刀塔猜</li>
+			<li class="nav-item">充值中心</li>
+			<li class="nav-item nav-item-shop">金币商城
+				<!--吉祥物-->
+				<div class="icon mascot"></div>
+			</li>
+
+			<li class="wx-login wx-login-not">
+				<span>请使用微信登陆</span>
+				<i class="icon icon-wx"></i>
+			</li>
+			<li class="wx-login wx-login-already">
+				<span class="header-user-headimg"></span>
+				<span class="header-user-name">阿卡沙里
+					</span>
+					<em>[退出]</em>
+			</li>
+		</ul>
+
+		<!--头部下方公共背景图-->
+		<div class="bg-up"></div>
+
+		<!--monster 浮标-->
+		<ul class="side-monster bg">
+			<li class="up-to-top bg J_up"></li>
+			<li class="quiz-rule">竞猜规则</li>
+			<li class="qr bg J_qr">
+				<div class="qr-detail J_qr_detail">
+					<span class="qr-dota">
+						<i class="icon icon-dota"></i>
+						<div class="qr-img qr-img-dota">
+							<img src="http://img5.imgtn.bdimg.com/it/u=1840918214,760214799&fm=21&gp=0.jpg">
+						</div>
+					</span>
+					<span class="qr-lol">
+						<icon class="icon icon-lol"></icon>
+						<div class="qr-img qr-img-lol">
+							<img src="http://img4.imgtn.bdimg.com/it/u=3658454785,972625657&fm=21&gp=0.jpg">
+						</div>
+					</span>
+				</div>
+			</li>
+		</ul>
+	</header>
+	<!--公共头部 E-->
+
+
+	<!--商城内容 S-->
+	<div class="content-wrap">
+
+		<div class="main-content">
+			<ul class="shop-title">
+				<li class="tab ">
+					<i class="icon icon-richer"></i>
+					<span>土豪专区</span>
+				</li>
+				<li class="tab">
+					<i class="icon icon-suits"></i>
+					<span>人气套装</span>
+				</li>
+				<li class="tab current">
+					<i class="icon icon-single"></i>
+					<span>火爆单品</span>
+				</li>
+			</ul>
+			<div class="shop-filter">
+				<!--商品筛选三个tab按钮，点击后即addClass('current')增加当前态-->
+				<h1 class="title">商品筛选
+					<ul class="sort">
+						<li class="tab time ">
+								上架时间
+							<i class="icon"></i>
+						</li>
+						<li class="tab sales">
+							销量
+							<i class="icon"></i>
+						</li>
+						<li class="tab price current">
+							价格
+							<i class="icon"></i>
+						</li>
+					</ul>
+				</h1>
+				<ul class="search">
+					<li class="tab key">关键字</li>
+					<li class="tab keyin">
+						<input class="input"/>
+					</li>
+					<li class="tab region">价格区间（金币数）</li>
+					<li class="tab">
+						<input class="input min"/>
+					</li>
+					<li class="tab dash">—</li>
+					<li class="tab">
+						<input class="input max"/>
+					</li>
+					<li class="tab confirm">确认</li>
+					<li class="tab cancel">取消</li>
+				</ul>
+
+			</div>
+			<div class="shop-list">
+				<ul class="tab richer show">
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+					<li class="item">
+						<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="goods">
+						<p class="price">300000金币</p>
+						<p class="name">纯正熔岩Roshan至宝</p>
+						<p class="amount">已兑换9000件</p>
+					</li>
+
+				</ul>
+				<ul class="tab suits"></ul>
+				<ul class="tab single"></ul>
+				<ul class="page">
+					<li class="item prev">上一页</li>
+					<li class="item current">1</li>
+					<li class="item">2</li>
+					<li class="item">3</li>
+					<li class="item">4</li>
+					<li class="item dot">...</li>
+					<li class="item">10</li>
+					<li class="item next">下一页</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="side-bar">
+				<!--登陆状态-->
+				<ul class="user bg user-test">
+					<li class="user-headimg">
+						<img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1519979105,1747027397&fm=116&gp=0.jpg">
+					</li>
+					<li class="user-name">
+						阿卡萨的悲伤
+						<a href=""><small>[退出]</small></a>
+					</li>
+					<li class="user-gold">
+						<small>金币余额</small>
+						923742
+					</li>
+
+					<li class="user-recharge-btn recharge">
+						金币充值
+					</li>
+					<li class="user-recharge-btn user-test-login">
+						微信登陆成为正式用户
+					</li>
+					<li class="user-detail">
+						<ul>
+							<a href="">
+								<li class="gold-detail">金币明细</li>
+							</a>
+							<a href="">
+								<li class="exchange-record">兑换记录</li>
+							</a>
+							<a href="">
+								<li class="quiz-record">竞猜记录</li>
+							</a>
+						</ul>
+					</li>
+				</ul>
+
+				<!--公告-->
+				<div class="side-item announce">
+					<h1>
+						<span>公告</span>
+					</h1>
+					<ul class="announce-list">
+						<li class="announce-list-item">
+							<a href="#">
+								<i class="icon icon-diamond"></i>
+								<span>刀塔猜上线通知</span>
+								<span class="annouce-item-time">2015.08.29</span>
+							</a>
+						</li>
+						<li class="announce-list-item">
+							<a href="#">
+								<i class="icon icon-diamond"></i>
+								<span>刀塔猜上线通知</span>
+								<span class="annouce-item-time">2015.08.29</span>
+							</a>
+						</li>
+						<li class="announce-list-item">
+							<a href="#">
+								<i class="icon icon-diamond"></i>
+								<span>刀塔猜上线通知</span>
+								<span class="annouce-item-time">2015.08.29</span>
+							</a>
+						</li>
+						<li class="announce-list-item">
+							<a href="#">
+								<i class="icon icon-diamond"></i>
+								<span>刀塔猜上线通知</span>
+								<span class="annouce-item-time">2015.08.29</span>
+							</a>
+						</li>
+						<li class="announce-list-item">
+							<a href="#">
+								<i class="icon icon-diamond"></i>
+								<span>刀塔猜上线通知</span>
+								<span class="annouce-item-time">2015.08.29</span>
+							</a>
+						</li>
+						<li class="announce-list-item">
+							<a href="#">
+								<i class="icon icon-diamond"></i>
+								<span>刀塔猜上线通知</span>
+								<span class="annouce-item-time">2015.08.29</span>
+							</a>
+						</li>
+
+					</ul> 
+				</div>
+				<!--热门饰品-->
+				<div class="side-item ornament">
+					<h1>
+						<span>热门饰品</span>
+					</h1>
+
+					<ul class="ornament-list">
+						<li class="item">
+							<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="img">
+							<div class="desc">
+								<p class="price">30000金币</p>
+								<p class="name">纯正熔岩套装至宝</p>
+								<p class="amount">已兑换9000件</p>
+							</div>
+						</li>
+						<li class="item">
+							<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="img">
+							<div class="desc">
+								<p class="price">30000金币</p>
+								<p class="name">纯正熔岩套装至宝</p>
+								<p class="amount">已兑换9000件</p>
+							</div>
+						</li>
+						<li class="item">
+							<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="img">
+							<div class="desc">
+								<p class="price">30000金币</p>
+								<p class="name">纯正熔岩套装至宝</p>
+								<p class="amount">已兑换9000件</p>
+							</div>
+						</li>
+						<li class="item">
+							<img src="http://cdn.dota2.com.cn/apps/570/icons/econ/tools/fall_majors_compendium_prelevelled.5cb4a46d27bfc5ede5b171258af3db4918473a51.png" class="img">
+							<div class="desc">
+								<p class="price">30000金币</p>
+								<p class="name">纯正熔岩套装至宝</p>
+								<p class="amount">已兑换9000件</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!--本场比赛竞猜土豪榜-->
+				<!--本场比赛竞猜记录-->
+		</div>
+	</div>
+	<!--商城内容 E-->
+
+
+	<!--公共尾部 S-->
+	<footer>
+
+		<div class="footer-content">
+			<ul class="footer-nav">
+				<li><a href="#">首页</a></li>
+				<li>|</li>
+				<li><a href="#">关于我们</a></li>
+				<li>|</li>
+				<li><a href="#">联系我们</a></li>
+				<li>|</li>
+				<li><a href="#">加入我们</a></li>
+				<li>|</li>
+				<li><a href="#">免责声明</a></li>
+			</ul>
+
+			<div class="copyright">Copyright&copy;上海够速科技有限公司</div>
+			<div class="icp">浙ICP 备 14028335 号 -2 </div>
+
+			<ul class="qrcode">
+				<li class="qrcode-title">
+					<p>微信扫描二维码</p>
+					<p>随时随地手机玩菠菜</p>
+				</li>
+				<li>
+					<div class="icon qrcode-dota2"></div>
+				</li>
+				<li>
+					<div class="icon qrcode-lol"></div>
+				</li>
+			</ul>
+
+		</div>
+
+
+		<!--尾部上方公共背景图-->
+		<div class="bg-down"></div>
+	</footer>
+	<!--公共尾部 E-->
+
+	<script src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var _width = $('.page').width();
+			console.log(_width);
+			$('.page').css('marginLeft',-_width/2);
+			$('.page').addClass('show');
+
+			
+		});
+	</script>
+</body>
+</html>

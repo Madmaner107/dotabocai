@@ -1,0 +1,57 @@
+.about-us
+{
+  color: #fff;
+  text-align: center;
+}
+
+.about-us .logo
+{
+  width: 106px;
+  height: 106px;
+  margin-top: 50px;
+}
+
+.about-us .brand-name
+{
+  color: #d1d1d1;
+}
+
+.about-us .brand-slogan
+{
+  font-size: 15px;
+  color: #fff;
+  margin-top: 30px;
+  display: block;
+}
+
+.about-us .account
+{
+  color: #d8321e;
+  display: inline-block;
+}
+
+.about-us .notice
+{
+  color: #fff;
+  padding-left: 10px;
+}
+
+.about-us .label
+{
+  text-align: right;
+  width: 110px;
+  display: inline-block;
+  color: #b4b4b4;
+}
+
+.social-media-account-block
+{
+  margin-top: 100px;
+}
+
+.social-media-account-block .social-media-account-block-element
+{
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}

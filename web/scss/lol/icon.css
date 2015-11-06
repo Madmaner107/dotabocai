@@ -1,0 +1,686 @@
+.border-circle
+{
+  border-radius: 50%;
+}
+
+.user-menu-cell .icon
+{
+  width: 24px;
+  height: 24px;
+  background-size: 24px;
+}
+
+.icon-gold-detail
+{
+  background: url(/images/lol/icon-gold-detail.png) no-repeat;
+}
+
+.icon-redeem-record
+{
+  background: url(/images/lol/icon-redeem-record.png) no-repeat;
+}
+
+.icon-bet-history
+{
+  background: url(/images/lol/icon-bet-history.png) no-repeat;
+}
+
+.icon-about
+{
+  background: url(/images/lol/icon-about.png) no-repeat;
+}
+
+.icon-book
+{
+  background: url(/images/icon-book.png) no-repeat;
+}
+
+.bet-subject-cell .icon-book
+{
+  width: 20px;
+  height: 20px;
+}
+
+/* * *
+ * Tabbar overriding
+ */
+.bar-tab .tab-item .icon, .bar-tab .tab-item.active .icon
+{
+  background-position: center;
+  background-size: 24px 24px;
+}
+
+.icon-home::before, .icon-person::before, .icon-star-filled::before, .icon-exclamation::before
+{
+    content: none;
+}
+
+.icon-home
+{
+  background: url(/images/lol/icon-home.png) no-repeat;
+}
+
+.icon-roulette
+{
+  background: url(/images/icon-roulette.png?1) no-repeat;
+}
+
+.icon-shop
+{
+  background: url(/images/lol/icon-shop.png) no-repeat;
+}
+
+.icon-user
+{
+  background: url(/images/lol/icon-user.png) no-repeat;
+}
+
+.tab-item.active .icon-home
+{
+  background: url(/images/lol/icon-home-active.png) no-repeat;
+}
+
+.tab-item.active .icon-roulette
+{
+  background: url(/images/icon-roulette-active.png) no-repeat;
+}
+
+.tab-item.active .icon-shop
+{
+  background: url(/images/lol/icon-shop-active.png) no-repeat;
+}
+
+.tab-item.active .icon-user
+{
+  background: url(/images/lol/icon-user-active.png) no-repeat;
+}
+
+.page-header .icon
+{
+  width: 15px;
+  height: 12px;
+  margin-right: 5px;
+  background-size: 15px 12px;
+}
+
+.icon-crown-white
+{
+  background: url(/images/icon-crown-white.png) no-repeat;
+}
+
+.icon-group-white
+{
+  background: url(/images/icon-group-white.png) no-repeat;
+  position: relative;
+  top: 1px;
+}
+
+.page-header .icon.icon-fire-white
+{
+  width: 12px;
+  height: 15px;
+}
+
+.icon-fire-white
+{
+  background: url(/images/icon-fire-white.png) no-repeat;
+  background-size: 12px 15px !important;
+  position: relative;
+  top: 2px;
+}
+
+.modal-tron-alert .icon
+{
+  height: 36px;
+  width: 36px;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-top: -5px;
+  background-size: 36px;
+}
+
+.icon-exclamation
+{
+  background: url(/images/lol/icon-exclamation.png) no-repeat;
+}
+
+.icon-check::before
+{
+  content: "";
+}
+
+.icon-check
+{
+  background: url(/images/lol/icon-check.png) no-repeat;
+}
+
+.icon-warning
+{
+  background: url(/images/lol/icon-warning.png) no-repeat;
+}
+
+.shop-menu .icon
+{
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  background-size: 40px;
+}
+
+.section-header .icon
+{
+  background-size: 15px 12px;
+  width: 15px;
+  height: 12px;
+}
+
+.icon-crown
+{
+  background: url(/images/icon-crown.png) no-repeat;
+}
+
+.icon-group
+{
+  background: url(/images/icon-group.png) no-repeat;
+}
+
+.icon-fire
+{
+  background: url(/images/icon-fire.png) no-repeat;
+  background-size: 12px 15px !important;
+}
+
+.icon-up-down-up
+{
+  background: url(/images/icon-up-down-up@2x.png) no-repeat;
+  background-size: 5px 8px;
+}
+
+.icon-up-down-down
+{
+  background: url(/images/icon-up-down-down@2x.png) no-repeat;
+  background-size: 5px 8px;
+}
+
+.table-view-header .icon
+{
+  display: inline-block;
+  margin-left: 2px;
+  height: 8px;
+  width: 5px;
+  vertical-align: middle;
+  margin-bottom: 3px;
+}
+
+.responsive-image
+{
+  width: 100%;
+}
+
+.modal-daily-reward .icon
+{
+  width: 15px;
+  height: 15px;
+}
+
+.modal-daily-reward .icon-close-extrem-light
+{
+  background: url(/images/lol/icon-close-extrem-light.png) no-repeat !important;
+  position: absolute;
+  background-size: 15px !important;
+  right: 10px !important;
+  top: 10px ;
+}
+
+.recap-cell .icon-disc
+{
+  width: 8px;
+  height: 8px;
+  margin-right: 12px;
+}
+
+.icon-disc
+{
+  background: url(/images/icon-rectangle-disc.png) no-repeat;
+}
+
+.team-logo-wrapper
+{
+  position: relative;
+}
+
+.team-logo-wrapper .icon
+{
+  width: 66px;
+  height: 22px;
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  margin-left: -33px;
+  background-size: 66px 22px;
+}
+
+.icon-victory
+{
+  background: url(/images/lol/icon-victory.png) no-repeat;
+  background-size: 75px 22px;
+}
+
+.stake-unit
+{
+  position: relative;
+}
+
+.stake-unit .icon
+{
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  right: 10px;
+}
+
+.icon-question-mark
+{
+  background: url(/images/icon-question-mark.png);
+  background-size: 20px;
+}
+
+.img-redeem-help
+{
+  max-width: 289px;
+  max-height: 131px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user-avatar-small
+{
+  width: 40px;
+  height: 40px;
+}
+
+.icon-loading
+{
+  background: url(/images/lol/icon-loading.gif ) no-repeat;
+  width: 16px;
+  height: 16px;
+  background-size: 16px;
+  margin-right: 5px;
+}
+
+.game-league .icon
+{
+  width: 9px;
+  height: 9px;
+  background-size: 9px;
+  margin-right: 2px;
+}
+
+.icon-report
+{
+  background: url(/images/icon-report.png);
+}
+
+.icon-logo
+{
+  background: url(/images/icon-logo.png);
+}
+
+.icon-logo-golden
+{
+  background: url(/images/icon-logo-golden.png);
+}
+
+.icon-report-golden
+{
+  background: url(/images/icon-report-golden.png);
+}
+
+.bg-roulette-entrance
+{
+  width: 100%;
+  background-color: #1a191f;
+}
+
+.roulette
+{
+  background: url(/images/bg-roulette.png) no-repeat;
+  background-size: cover !important;;
+}
+
+.bet-period-header .icon
+{
+  color: #b4b4b4;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.bet-period-header .icon-left-nav
+{
+  float: left;
+  margin-left: 15px;
+}
+
+.bet-period-header .icon-right-nav
+{
+  float: right;
+  margin-right: 15px;
+}
+
+.icon-new
+{
+  background: url(/images/icon-new.png) no-repeat;
+  width: 22px;
+  height: 9px;
+  background-size: 22px 9px;
+}
+
+.icon-wechat
+{
+  background: url(/images/icon-wechat.png) no-repeat;
+  width: 24px;
+  height: 24px;
+  background-size: 24px;
+  vertical-align: middle;
+  display: inline-block;
+  transform: translateY(-.1em);
+}
+
+.icon-alipay
+{
+  background: url(/images/icon-alipay.png) no-repeat;
+  width: 24px;
+  height: 24px;
+  background-size: 24px;
+  vertical-align: middle;
+  display: inline-block;
+  transform: translateY(-.1em);
+}
+
+.icon-loading-gif
+{
+  background: url(/images/icon-loading.gif) no-repeat;
+  width: 18px;
+  height: 18px;
+  background-size: 18px;
+}
+
+.icon-option
+{
+  background: url(/images/icon-option.png);
+  width: 11px;
+  height: 11px;
+  background-size: 11px;
+  vertical-align: middle;
+  display: inline-block;
+  transform: translateY(-.1em);
+}
+
+.icon-option-selected
+{
+  background: url(/images/icon-option-selected.png);
+  width: 11px;
+  height: 11px;
+  background-size: 11px;
+}
+
+.icon-bet
+{
+  background: url(/images/lol/icon-bet.png) no-repeat;
+}
+
+.match-cell .icon-bet
+{
+  width: 18px;
+  height: 24px;
+  background-size: 18px 24px;
+  position: absolute;
+  right: 15px;
+  top: -1px;
+  z-index: 10;
+}
+
+/* Override Ratchet default icon-play */
+.icon-play:before
+{
+    content: none;
+}
+
+.icon-play
+{
+  background: url(/images/lol/icon-play.png) no-repeat;
+}
+
+.icon-clock
+{
+  background: url(/images/lol/icon-clock.png) no-repeat;
+}
+
+.icon-clock-muted
+{
+  background: url(/images/lol/icon-clock-muted.png) no-repeat;
+  width: 14px;
+  height: 14px;
+  background-size: 14px;
+  transform: translateY(.08em) !important;
+}
+
+.icon-mute
+{
+  background: url(/images/lol/icon-mute.png) no-repeat;
+}
+
+.match-cell .icon-play,
+.match-cell .icon-clock,
+.match-cell .icon-mute
+{
+  width: 14px;
+  height: 14px;
+  background-size: 14px;
+  transform: translateY(.05em) !important;
+}
+
+.icon-skin
+{
+  background: url(/images/lol/icon-skin.png) no-repeat;
+}
+
+.icon-item
+{
+  background: url(/images/lol/icon-item.png) no-repeat;
+}
+
+.icon-eye
+{
+  background: url(/images/lol/icon-eye.png) no-repeat;
+}
+
+.icon-notice
+{
+  background: url(/images/lol/icon-notice.png) no-repeat;
+}
+
+.redeem-skin-notice .icon-notice
+{
+  width: 3px;
+  height: 12px;
+  background-size: 3px 12px;
+  margin-right: 5px;
+}
+
+.item-meta-stats .icon
+{
+  width: 20px;
+  height: 20px;
+  background-size: 20px;
+  margin-left: .2em;
+  margin-right: .4em;
+  position: relative;
+  top: .15em;
+}
+
+.icon-magic-1
+{
+  background: url(/images/lol/hero-stats/icon-magic-1.png) no-repeat;
+}
+.icon-magic-2
+{
+  background: url(/images/lol/hero-stats/icon-magic-2.png) no-repeat;
+}
+.icon-magic-3
+{
+  background: url(/images/lol/hero-stats/icon-magic-3.png) no-repeat;
+}
+.icon-magic-4
+{
+  background: url(/images/lol/hero-stats/icon-magic-4.png) no-repeat;
+}
+.icon-magic-5
+{
+  background: url(/images/lol/hero-stats/icon-magic-5.png) no-repeat;
+}
+.icon-magic-6
+{
+  background: url(/images/lol/hero-stats/icon-magic-6.png) no-repeat;
+}
+.icon-magic-7
+{
+  background: url(/images/lol/hero-stats/icon-magic-7.png) no-repeat;
+}
+.icon-magic-8
+{
+  background: url(/images/lol/hero-stats/icon-magic-8.png) no-repeat;
+}
+.icon-magic-9
+{
+  background: url(/images/lol/hero-stats/icon-magic-9.png) no-repeat;
+}
+.icon-magic-10
+{
+  background: url(/images/lol/hero-stats/icon-magic-10.png) no-repeat;
+}
+
+.icon-defense-1
+{
+  background: url(/images/lol/hero-stats/icon-defense-1.png) no-repeat;
+}
+.icon-defense-2
+{
+  background: url(/images/lol/hero-stats/icon-defense-2.png) no-repeat;
+}
+.icon-defense-3
+{
+  background: url(/images/lol/hero-stats/icon-defense-3.png) no-repeat;
+}
+.icon-defense-4
+{
+  background: url(/images/lol/hero-stats/icon-defense-4.png) no-repeat;
+}
+.icon-defense-5
+{
+  background: url(/images/lol/hero-stats/icon-defense-5.png) no-repeat;
+}
+.icon-defense-6
+{
+  background: url(/images/lol/hero-stats/icon-defense-6.png) no-repeat;
+}
+.icon-defense-7
+{
+  background: url(/images/lol/hero-stats/icon-defense-7.png) no-repeat;
+}
+.icon-defense-8
+{
+  background: url(/images/lol/hero-stats/icon-defense-8.png) no-repeat;
+}
+.icon-defense-9
+{
+  background: url(/images/lol/hero-stats/icon-defense-9.png) no-repeat;
+}
+.icon-defense-10
+{
+  background: url(/images/lol/hero-stats/icon-defense-10.png) no-repeat;
+}
+.icon-attack-1
+{
+  background: url(/images/lol/hero-stats/icon-attack-1.png) no-repeat;
+}
+.icon-attack-2
+{
+  background: url(/images/lol/hero-stats/icon-attack-2.png) no-repeat;
+}
+.icon-attack-3
+{
+  background: url(/images/lol/hero-stats/icon-attack-3.png) no-repeat;
+}
+.icon-attack-4
+{
+  background: url(/images/lol/hero-stats/icon-attack-4.png) no-repeat;
+}
+.icon-attack-5
+{
+  background: url(/images/lol/hero-stats/icon-attack-5.png) no-repeat;
+}
+.icon-attack-6
+{
+  background: url(/images/lol/hero-stats/icon-attack-6.png) no-repeat;
+}
+.icon-attack-7
+{
+  background: url(/images/lol/hero-stats/icon-attack-7.png) no-repeat;
+}
+.icon-attack-8
+{
+  background: url(/images/lol/hero-stats/icon-attack-8.png) no-repeat;
+}
+.icon-attack-9
+{
+  background: url(/images/lol/hero-stats/icon-attack-9.png) no-repeat;
+}
+.icon-attack-10
+{
+  background: url(/images/lol/hero-stats/icon-attack-10.png) no-repeat;
+}
+.icon-difficulty-1
+{
+  background: url(/images/lol/hero-stats/icon-difficulty-1.png) no-repeat;
+}
+.icon-difficulty-2
+{
+  background: url(/images/lol/hero-stats/icon-difficulty-2.png) no-repeat;
+}
+.icon-difficulty-3
+{
+  background: url(/images/lol/hero-stats/icon-difficulty-3.png) no-repeat;
+}
+.icon-difficulty-4
+{
+  background: url(/images/lol/hero-stats/icon-difficulty-4.png) no-repeat;
+}
+.icon-difficulty-5
+{
+  background: url(/images/lol/hero-stats/icon-difficulty-5.png) no-repeat;
+}
+.icon-difficulty-6
+{
+  background: url(/images/lol/hero-stats/icon-difficulty-6.png) no-repeat;
+}
+.icon-difficulty-7
+{
+  background: url(/images/lol/hero-stats/icon-difficulty-7.png) no-repeat;
+}
+.icon-difficulty-8
+{
+  background: url(/images/lol/hero-stats/icon-difficulty-8.png) no-repeat;
+}
+.icon-difficulty-9
+{
+  background: url(/images/lol/hero-stats/icon-difficulty-9.png) no-repeat;
+}
+.icon-difficulty-10
+{
+  background: url(/images/lol/hero-stats/icon-difficulty-10.png) no-repeat;
+}

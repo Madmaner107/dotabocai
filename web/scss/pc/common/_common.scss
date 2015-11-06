@@ -1,0 +1,137 @@
+/*
+公共部分样式，定义一些固定的颜色
+*/
+@import "reset";
+$bg-gray:#21252D;
+$bg-black:#171B21;
+$bg-black-dark:#111317;
+$bg-red:#BF2B14;
+
+$font-gray:#767A82;
+$font-gold:#C99E5D;
+
+$border-gray:#272e38;
+$border-gray-light:#474A50;
+$border-gold:#C99E5D;
+$border-red:#BF2B14;
+
+
+
+%width{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+%border{
+	border:1px solid $border-gray;
+}
+
+%team{
+	width: 100px;
+}
+
+%score-on{
+	color: $font-gray;
+}
+
+body{
+	background-color: $bg-black-dark;
+}
+
+.icon{
+	display: block;
+	float: left;
+	background-image: url(../images/pc/sprite.png);
+}
+.bg{
+	background-image: url(../images/pc/sprite.png);
+}
+.icon-dota2{
+	margin-top: 1px;
+	width: 14px;
+	height: 14px;
+	background-position: -585px -30px;
+}
+.icon-lol{
+	width: 14px;
+	height: 14px;
+	background-position: -610px -30px;
+}
+.mask{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	background-color: rgba(0,0,0,.5);
+}
+.popup-demo{
+	@extend %border-box;
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -260px;
+	margin-top: -156px;
+	width: 520px;
+	height: 312px;
+	z-index: 100;
+	background-color: $bg-gray;
+	border: 1px solid $border-gray;
+	em{
+		color: $font-gold;
+	}
+	h3{
+		text-align: center;
+		padding: 20px 0;
+		font-size: 18px;
+	}
+	.tips{
+		@extend %border-box;
+		margin: 0 auto;
+		width: 500px;
+		height: 160px;
+		background-color: $bg-black;
+		border: 1px solid $border-gray;
+		padding: 15px;
+		p{
+			line-height: 24px;
+			&:before{
+				display: inline-block;
+				width: 2px;
+				height: 14px;
+				background-color: red;
+			}
+		}
+	}
+	.temp-name{
+		margin-top: 10px;
+		display: block;
+		text-align: center;
+		font-size: 14px;
+	}
+	button{
+		display: block;
+		width: 240px;
+		height: 40px;
+		border-radius: 20px;
+		border: 0;
+		background-color: #107BD6;
+		color: #fff;
+		margin: 10px auto;
+		cursor: pointer;
+	}
+	.icon-close{
+		position: absolute;
+		top: -1px;
+		right: -46px;
+		width: 44px;
+		height: 44px;
+		background-color: $bg-gray;
+		background-position: -842px 7px;
+		border: 1px solid $border-gray;
+		cursor: pointer;
+	}
+}

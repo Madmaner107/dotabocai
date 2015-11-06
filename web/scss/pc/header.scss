@@ -1,0 +1,283 @@
+@import "common/reset";
+@import "common/function";
+@import "common/common";
+@import "common/animate";
+
+/*
+头部样式 S
+*/
+.header{
+	@extend %border-box;
+	height: 60px;
+	background-color: $bg-black-dark;
+	position: relative;
+	.nav{
+		@extend %clearfix;
+		@extend %width;
+		font-size: 16px;
+		line-height: 30px;
+	}
+}
+.header-content{
+	@extend %clearfix;
+	@extend %width;
+	font-size: 16px;
+}
+
+.header-nav{
+	line-height: 30px;
+	li{
+		@extend %border-box;
+		padding: 15px 0;
+		float: left;
+	}
+	.logo{
+		width: 180px;
+	}
+	.nav-item{
+		padding: 15px 20px;
+		&:hover{
+			background-color: $bg-gray;
+			cursor: pointer;
+		}
+	}
+	.nav-item-cur{
+		background-color: $bg-gray;
+	}
+	.nav-item-shop{
+		position: relative;
+	}
+	.wx-login{
+		position: relative;
+		float: right;
+		padding-right: 40px;
+		font-size: 12px;
+		cursor: pointer;
+		.icon-wx{
+			position: absolute;
+			top: 50%;
+			right: 1px;
+			margin-top: -17px;
+			width: 34px;
+			height: 34px;
+			border-radius: 50%;
+			background-color: $bg-gray;
+			background-position: -144px 8px;
+		}
+	}
+	.header-user-headimg{
+		float: left;
+		width: 25px;
+		height: 25px;
+		background-color: #fff;
+		border-radius: 50%;
+		margin-top: 2px;
+	}
+	.header-user-name{
+		margin-left: 10px;
+		// width: 90px;
+		height: 30px;
+		font-size: 12px;
+		line-height: 30px;
+		text-align: left;
+	}
+	em{
+		cursor: pointer;
+		color: $font-gray;
+	}
+	.wx-login-not{
+		display: none;
+	}
+	.wx-login-already{
+		display: block;
+		padding-right: 0;
+		span{
+			display: inline-block;
+		}
+	}
+}
+
+.mascot{
+	position: absolute;
+	top:0;
+	left: 15px;
+	width: 105px;
+	height: 73px;
+	background-position: -40px 0;
+}
+
+.bg-up{
+	position: absolute;
+	width: 100%;
+	min-height: 700px;
+	background-image: url("../images/pc/bg_up.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+.amount-wrap{
+	width: 100%;
+	height: 68px;
+	background-color: rgba(0,0,0,.4);
+	.amount-content{
+		@extend %width;
+		@extend %clearfix;
+		line-height: 68px;
+		padding-left:40px;
+		li{
+			position: relative;
+			float: left;
+			width: 240px;
+			text-indent: 50px;
+			color: $font-gray;
+		}
+		i{
+			position: absolute;
+			top:4px;
+			display: block;
+			margin-top: 10px;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+		}
+		.icon-amount-1{
+			background-position: -180px 0;
+			&+span{
+				color:#82AA21;
+			}
+		}
+		.icon-amount-2{
+			background-position: -230px 0;
+			&+span{
+				color: #DA9E20;
+			}
+		}
+		.icon-amount-3{
+			background-position: -280px 0;
+			&+span{
+				color: #1D81BA;
+			}
+		}
+		.icon-amount-4{
+			background-position: -330px 0;
+			&+span{
+				color: #CD2A55;
+			}
+		}
+	}
+}
+
+.side-monster{
+	width: 67px;
+	height: 204px;
+	position: fixed;
+	top: 500px;
+	right: 10px;
+	// left: 50%;
+	// margin-left: 550px;
+	background-position: -635px 0;
+	li{
+		position: absolute;
+		width: 48px;
+		height: 48px;
+		cursor: pointer;
+	}
+	.up-to-top{
+		top: 19px;
+		left: 17px;
+		background-position: -745px -51px;
+	}
+	.quiz-rule{
+		@extend %clearfix;
+		width: 40px;
+		top: 82px;
+		left: 21px;
+		text-align: center;
+		font-size: 16px;
+		padding-top: 5px;
+	}
+	.qr{
+		@extend %border-box;
+		top: 138px;
+		left: 17px;
+		padding: 10px;
+		background-position: -1388px 12px;
+		animation-duration:1s;
+		// animation-delay:2s;
+	}
+	.qr-detail{
+		display: none;
+		position: absolute;
+		top: 0;
+		right: 60px;
+		width: 120px;
+		height: 50px;
+		span{
+			@extend %indent;
+			@extend %border-box;
+			position: relative;
+			display: inline-block;
+			width: 50px;
+			height: 100%;
+			margin-left: 8px;
+			border: 1px solid $border-gray;	
+			overflow: visible;
+			&:hover{
+				.qr-img{
+					display: block;
+				}
+			}
+		}
+		.icon{
+			position: absolute;
+			top: 13px;
+			left: 13px;
+			width: 24px;
+			height: 24px;
+			opacity: .3;
+			&:hover{
+				opacity: 1;
+			}
+		}
+
+		.icon-dota{
+			background-position: -385px -160px;
+		}
+		.icon-lol{
+			background-position: -470px -160px;
+		}
+	}
+	.qr-img{
+		position: absolute;
+		bottom: 60px;
+		width: 110px;
+		height: 110px;
+		background-color: #fff;
+		img{
+			position: absolute;
+			top: 5px;
+			left: 5px;
+			width: 100px;
+			height: 100px;
+		}
+	}
+	.qr-img-dota{
+		display: none;
+	}
+	.qr-img-lol{
+		right: 0;
+		display: none;
+	}
+	.qr-active{
+		background-position: -1338px 12px;
+		.qr-detail{
+			display: block;
+		}
+	}
+}
+
+
+/*
+头部样式 E
+*/

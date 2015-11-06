@@ -1,0 +1,89 @@
+.single-match
+{
+  background-size: cover !important;
+  border-top: none;
+}
+
+.single-match .match-cell-body
+{
+  margin-top: 25px;
+}
+
+.table-view-cell.bet-subject-cell
+{
+    background: #1E2025;
+    border-top: 1px solid #303030;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 16px 20px;
+}
+
+.bet-subject
+{
+  margin-bottom: 4px;
+}
+
+.bet-subject-header
+{
+  margin-left: 2px;
+  margin-right: 5px;
+  margin-top: 6px;
+  text-align: center;
+  width: 10%;
+}
+
+.bet-subject-title
+{
+    font-size: 16px;
+    color: #DDAD7B;
+    word-wrap: break-word;
+    width: 72%;
+}
+
+.bet-subject-cell .bet-stats
+{
+    color: #777777;
+    font-size: 12px;
+}
+
+.bet-subject-option
+{
+    display: block;
+    float: left;
+    padding: 8px 12px;
+    margin-right: 22px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 4px;
+    border: 1px solid #777;
+    margin-top: 10px;
+    color: #E1E1E1;
+    font-size: 14px;
+}
+
+.bet-subject-option-selected
+{
+    background: #0BCDB1;
+    color: #fff;
+    border: 1px solid #0BCDB1;
+}
+
+.bet-subject-option-selected:active
+{
+    background: #0BCDB1;
+    color: #fff;
+    user-select: none;
+    border: 1px solid #0BCDB1;
+}
+
+.game-detail
+{
+  position: relative;
+  top: 15px;
+}
+
+.bet-closed-info
+{
+  font-size: 14px;
+  color: #e1e1e1;
+}

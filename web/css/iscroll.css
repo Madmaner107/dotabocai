@@ -1,0 +1,52 @@
+#game-list {
+    position: absolute;
+    z-index: 1;
+    top: 41px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #0a0a0a;
+    overflow: hidden;
+}
+
+#scroller {
+    position: absolute;
+    z-index: 1;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+#pullDown,#pullUp {
+    height: 40px;
+    line-height: 40px;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.-webkit-keyframes loading {
+    from {
+        -webkit-transform: rotate(0deg)translateZ(0);
+    }
+
+    .to {
+        -webkit-transform: rotate(360deg) translateZ(0);
+    }
+}

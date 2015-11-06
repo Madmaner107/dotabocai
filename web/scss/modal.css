@@ -1,0 +1,356 @@
+/* *
+ * Modal
+ */
+
+.modal-tron-open
+{
+   /*overflow: hidden;*/
+   position: fixed;
+}
+
+.modal-tron-open .modal-tron
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+
+.fade.in
+{
+   opacity: .8;
+   background-color: #000 !important;
+}
+
+.modal-tron
+{
+   bottom: 0;
+   left: 0;
+   outline: 0 none;
+   overflow: hidden;
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   right: 0;
+   top: 0;
+   z-index: 50;
+}
+
+.fade
+{
+   opacity: 0;
+   transition: opacity 0.15s linear 0s;
+}
+
+.modal.in .modal-dialog
+{
+   transform: translate(0px, 0px);
+}
+
+.modal.fade .modal-dialog
+{
+   transform: translate(0px, -25%);
+   transition: transform 0.3s ease-out 0s;
+}
+
+.modal-tron-sm
+{
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   left: 10%;
+   top: 50%;
+   margin-top: -150px;
+   opacity: 1;
+   position: fixed;
+   background: #2a292f;
+   border-radius: 5px;
+   padding: 15px;
+   color: #b4b4b6;
+   z-index: 999999;
+   vertical-align: middle;
+}
+
+.modal-tron-sm-image-header
+{
+ padding: 0;
+}
+
+.modal-tron-sm-image-header .modal-tron-content
+{
+ padding: 15px;
+}
+
+.modal-dialog
+{
+    margin: 30px auto;
+    width: 600px;
+}
+
+.modal-content
+{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.modal-content
+{
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    outline: 0 none;
+    position: relative;
+}
+
+.modal-header {
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 16.43px;
+    padding: 15px;
+}
+
+.modal-header .close {
+    margin-top: -2px;
+}
+
+.close
+{
+    color: #000;
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    opacity: 0.2;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.modal-body
+{
+    padding: 15px;
+    position: relative;
+}
+
+.modal-tron-sm .tron-btn
+{
+  font-size: 15px;
+  padding: 7px 22px 7px;
+}
+
+.modal-tron-alert
+{
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.modal-tron-sm .tron-btn-encourage-large
+{
+  width: 80%;
+}
+
+.modal-tron-sm .bet-closed-info
+{
+  color: #fff;
+  font-size: 12px;
+}
+
+.modal-tron-header
+{
+  background: #1C1B20;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.modal-tron-header .header-image
+{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.modal-tron-sm-image-header .icon-close
+{
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.modal-tron-sm-image-header .modal-tron-content
+{
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.modal-tron-sm-image-header .modal-tron-content p
+{
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.modal-tron-sm-image-header .modal-tron-content .grey-text
+{
+  color: #b4b4b4;
+  font-size: 12px;
+}
+
+.modal-tron-sm-image-header .form-actions
+{
+  margin-top: 20px;
+}
+
+.modal-tron-sm .icon::before
+{
+  content: '';
+}
+
+.modal-tron-sm .icon-close
+{
+  width: 20px;
+  height: 20px;
+  background: url(/images/icon-close.png) no-repeat;
+  background-size: 20px;
+  position: absolute;
+  right: -6px;
+  top: -6px;
+}
+
+.modal-daily-reward
+{
+  margin-top: -220px;
+}
+
+.modal-redeem-help
+{
+  color: #b4b4b4;
+}
+
+.get-tips
+{
+  font-size:10px;
+  color:#b4b4b4;
+  text-align:center
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .modal-tron-bet
+    {
+      margin-top: -200px;
+    }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .modal-tron-bet
+    {
+      margin-top: -200px;
+    }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .modal-tron-bet
+    {
+      margin-top: -200px;
+    }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .modal-tron-bet
+    {
+      margin-top: -200px;
+    }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}

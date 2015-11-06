@@ -1,0 +1,735 @@
+@import "common/reset";
+@import "common/function";
+@import "common/common";
+@import "common/animate";
+
+/*
+首页样式 S
+*/
+.main-content{
+	@extend %width;
+}
+.login-wrap{
+	@extend %width;
+	padding-top:80px;
+	.login-banner{
+		width: 318px;
+		height: 73px;
+		margin: 0 auto;
+		background-image: url(../images/pc/login.png);
+		text-indent: -100%;
+		overflow: hidden;
+	}
+	.login-btn{
+		margin: 20px auto;
+		width: 500px;
+		font-size: 0;
+		span{
+			display: inline-block;
+			width: 240px;
+			height: 40px;
+			border-radius: 20px;
+			background-color: #D43016;
+			line-height: 40px;
+			text-align: center;
+			font-size: 14px;
+		}
+		.login-btn-wx{
+			margin-right: 10px;
+		}
+		.login-btn-try{
+			margin-left: 10px;
+			background-color: #107BD6;
+		}
+	}
+}
+
+.content-wrap{
+	@extend %clearfix;
+	@extend %width;
+	margin-top: 70px;
+	min-height: 800px;
+}
+
+.main-content{
+	@extend %border-box;
+	width: 710px;
+	float: left;
+	// background-color: $bg-gray;
+}
+.mod-list-head{
+	@extend %border-box;
+	height: 40px;
+	background-color: $bg-black;
+	border-top: 1px solid $border-gray;
+	border-right: 1px solid $border-gray;
+	border-bottom: 2px solid #BF2B14;
+	span{
+		display:inline-block;
+	}
+	.mod-list-title{
+		width: 123px;
+		height: 38px;
+		line-height: 38px;
+		text-indent: 10px;
+		background: url(../images/pc/sprite.png) no-repeat -380px 0; 
+	}
+	.mod-list-more{
+		float: right;
+		line-height: 38px;
+		font-size: 14px;
+		margin-right: 10px;
+		a{
+			display: inline-block;
+			margin-right: 10px;
+			color: #767a82;
+		}
+	}
+	.icon{
+
+		margin:11px 3px 0 0;
+	}
+	.icon-more{
+		margin: 13px 5px 0 0;
+		width: 12px;
+		height: 12px;
+		background-position: -510px 0;
+	}
+}
+.mod-list-block{
+	@extend %clearfix;
+	margin-top: 10px;
+}
+.mod-list-item{
+	@extend %border;
+	@extend %border-box;
+	position: relative;
+	float: left;
+	width: 350px;
+	height: 180px;
+	background-color: $bg-black;
+	margin-bottom: 10px;
+	background-position: 0 -90px;
+	&:nth-child(2n){
+		margin-left: 10px;
+	}
+	.img{
+		width: 100%;
+		height:100%;
+	}
+
+	.mod-time{
+		width: 100px;
+		height: 24px;
+		line-height: 24px;
+		text-align: center;
+		font-size: 14px;
+		background-position: -380px -40px;			
+	}
+
+	h2{
+		position: absolute;
+		top: 10px;
+		right: 20px;
+		font-size: 14px;
+	}
+	.team-group{
+		@extend %clearfix;
+		padding: 0 14px;
+		margin-top: 55px;
+		span{
+			@extend $border-box;
+			float: left;
+			position: relative;
+			img{
+				@extend $border-box;
+				display: block;
+				margin: 0 auto;
+				width: 60px;
+				height: 60px;
+				border: 1px solid $font-gold;
+			}
+			.team-name{
+				margin-top: 20px;
+				display: block;
+				width: 100%;
+				height: 20px;
+				color: $font-gold;
+				text-align: center;
+			}
+		}
+		.team-left{
+			@extend %team;
+		}
+		.team-right{
+			@extend %team;
+			float: right;
+		}
+
+	}
+	.score{
+		margin-top: 14px;
+		width: 120px;
+		font-size: 32px;
+		span{
+			float: left;
+			text-align: center;
+			min-height: 30px;
+		}
+		.score-vs{
+			width: 60px;
+			font-size: 24px;
+			line-height: 32px;
+		}
+		.score-innings{
+			margin-top: -5px;
+			width: 100%;
+			font-size: 12px;
+		}
+		.score-left{
+			width: 30px;
+		}
+		.score-right{
+			width: 30px;
+			float: right;
+		}
+	}
+	.gaming-label{
+		@extend %indent;
+		display: none;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 50px;
+		height: 50px;
+		background-position:-530px 0; 
+	}
+}
+
+.mod-list-gaming{
+	.gaming-label{
+		display: block;
+	}
+}
+.mod-list-unstart{
+	.score-left,.score-right{
+		color: $font-gray;		
+	}
+}
+.mod-list-exchange{
+	border: 1px solid $border-gray;
+	.mod-list-head{
+		border-top:0; 
+		border-right:0; 
+	}
+	.mod-list-block{
+		padding: 20px;
+	}
+	.mod-list-item-sm{
+		width: 150px;
+		height: 140px;
+		margin-right: 22px;
+		margin-left: 0;
+		border-width:0;
+		&:last-child{
+			margin-right: 0;
+		}
+		.exchange-goods{
+			width: 100%;
+			height: 100px;
+		}
+		.exchange-user-headimg{
+			position: absolute;
+			left: 50%;
+			top: 80px;
+			margin-left: -20px;
+			display: block;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+		.exchange-desc{
+			padding: 0 10px;
+			display: block;
+			margin-top: 20px;
+			font-size: 12px;
+			line-height: 24px;
+			text-align: justify;
+		}
+		.exchange-goods-name{
+			color: #C99E5D;
+		}
+	}
+}
+//兑换信息
+.exchange-wrap{
+	@extend %border-box;
+	height: 380px;
+	margin-top: 20px;
+	overflow: hidden;
+	padding: 0 15px 20px 15px;
+	.box{
+		height: 360px;
+		overflow: hidden;
+	}
+	.list{
+		height: 2400px;
+	}
+	.item{
+		@extend %clearfix;
+		margin-top: 7px;
+		width: 100%;
+		// height: 200px;
+	}
+	.info{
+		@extend %border-box;
+		// padding-top: 20px;	
+		position: relative;	
+		display: block;
+		float: left;
+		width:25%;
+		height: 100%;
+	}
+	.img{
+		margin: 0 auto;
+		display: block;
+		width: 150px;
+		height: 100px;
+	}
+	.head{
+		position: absolute;
+		top: 80px;
+		left: 50%;
+		margin-left: -20px;
+		display: block;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+	}
+	.tips{
+		margin: 0 auto;
+		display: block;
+		margin-top: 30px;
+		width: 150px;
+		height: 50px;
+		font-size: 14px;
+		text-align: justify;
+	}
+	em{
+		color: $font-gold;
+	}
+}
+
+/*
+sidebar
+*/
+.side-bar{
+	@extend %border-box;
+	width: 280px;
+	float: right;
+	// background-color: #181b22;
+}
+.user{
+	@extend %border-box;
+	height: 330px;
+	// background-color: $bg-black;
+	border: 1px solid $border-gray;
+	margin-bottom: 10px;
+	background-position: -900px -2px;
+}
+.user-headimg{
+	@extend %border-box;
+	margin: 20px auto;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 2px solid $border-gold;
+	overflow: hidden;
+	img{
+		width: 100%;
+		height: 100%;
+	}
+}
+.user-name{
+	// margin: 0 auto;ß
+	text-align: center;
+	position: relative;
+	font-size: 14px;
+	small{
+		position: absolute;
+		top: 2px;
+		left: 185px;
+		color: $font-gray;
+	}
+}
+.user-gold{
+	margin: 10px;
+	text-align: center;
+	font-size: 24px;
+	color: $font-gold;
+	small{
+		color: $font-gray;
+		display: block;
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+}
+.user-recharge-btn{
+	margin: 0 auto;
+	width: 240px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	background-color: #BF2B14;
+	border-radius: 18px;
+	cursor: pointer;
+}
+.user-test-login{
+	display: none;
+}
+.user-test{
+	.recharge{
+		display: none;
+	}
+	.user-test-login{
+		display: block;
+	}
+	.user-detail{
+		a{
+			color: $font-gray;
+		}
+		.gold-detail:before{
+		background-position: -1200px 0;			
+		}
+		.exchange-record:before{
+			background-position: -1250px 0;			
+		}
+		.quiz-record:before{
+			background-position: -1300px 0;			
+		}
+	}
+}
+.user-detail{
+	width: 240px;
+	margin: 0 auto;
+	ul{
+		@extend %clearfix;
+		margin-top: 10px;
+	}
+	li{
+		float: left;
+		width: 80px;
+		text-align: center;
+		&:before{
+			margin: 10px auto;
+			margin-bottom: 5px;
+			content: '';
+			display: block;
+			width: 32px;
+			height: 32px;
+			background: url(../images/pc/sprite.png)
+		}
+	}
+	.gold-detail{
+		text-align: left;
+		&:before{
+			position: relative;
+			left: -8px;
+			background-position: -705px 0;			
+		}
+	}
+	.exchange-record{
+		&:before{
+			width: 30px;
+			background-position: -755px 0;
+		}
+	}
+	.quiz-record{
+		text-align: right;
+		&:before{
+			position: relative;
+			right: -8px;
+			background-position: -795px 0;
+		}
+	}
+}
+
+.side-item{
+	@extend %border;
+	overflow: hidden;
+	background-color: #181b22;
+	h1{
+		@extend %border-box;
+		width: 260px;
+		height: 40px;
+		margin-left:10px; 
+		line-height: 40px;
+		border-bottom: 2px solid #272e38;
+		span{
+			@extend %border-box;
+			display: block;
+			width: 84px;
+			height: 40px;
+			border-bottom: 2px solid #BF2B14;
+			text-indent: 10px;
+		}
+	}
+}
+.announce{
+	max-height: 270;
+}
+.announce-list{
+	.announce-list-item{
+		height: 38px;
+		padding: 0 10px;
+		line-height: 38px;
+		font-size: 12px;
+		.icon-diamond{
+			margin:16px 10px 0 0;
+			width: 6px;
+			height: 6px;
+			background-position: 0 -30px;
+		}
+		&:nth-child(2n+1){
+			background-color:#15161b; 
+		}
+		&:hover{
+			background-color: #21252e;
+		}
+	}
+	.annouce-item-time{
+		color: #767a82;
+		float: right;
+	}
+}
+
+.rank-all{
+	@extend %border;
+	@extend %clearfix;
+	position: relative;
+	margin-top: 10px;
+	background-color: #181b22;
+}
+.rank-title{
+	@extend %clearfix;
+	height: 40px;
+	line-height: 40px;	
+	padding: 0 10px;
+	.current{
+		border-bottom: 2px solid #BF2B14;
+	}
+}
+.rank-title-item{
+	@extend %border-box;
+	width: 33%;
+	float: left;
+	border-bottom: 2px solid #272e38;
+	cursor: pointer;
+}
+.rank-today-wealth{
+	padding-left: 5px;
+	text-align: left;
+}
+.rank-today-winner{
+	text-align: center;
+}
+.rank-today-ace{
+	padding-right: 5px;
+	text-align: right;
+}
+.rank-list{
+	@extend %clearfix;
+}
+.rank-list-item{
+	display: none;
+	margin-top: 20px;
+	width: 100%;
+	li{
+		padding: 0 20px;
+		height: 36px;
+		line-height: 36px;
+		font-size: 12px;
+		&:nth-child(2n+1){
+			background-color:#15161b; 
+		}
+		&:hover{
+			height: 60px;
+			line-height: 60px;
+			background-color: #21252e;
+			.rank-user-headimg{
+				display: block;
+			}
+			.rank-user-name{
+				margin-left: 28px;
+			}
+			.icon-rank-tou{
+				margin-top: 21px;
+			}
+		}
+		.rank-item-left{
+			position: relative;
+			float: left;
+			height: 36px;
+		}
+		.rank-item-right{
+			margin-right: 10px;
+			float: right;
+		}
+		.icon-rank{
+			float: left;
+			width: 16px;
+			height: 16px;
+			margin: 10px 10px 0 0;
+			line-height: 16px;
+			text-align: center;
+		}
+		.icon-rank-1{
+			background: #BF2B14;
+		}
+		.icon-rank-2{
+			background: #FF5C1D;
+		}
+		.icon-rank-3{
+			background: #BF2B14;
+		}
+		.icon-rank-4{
+			background: #828282;
+		}
+		.rank-user-name{
+			display: inline-block;
+			width: 80px;
+			height: 36px;
+			overflow: hidden;
+		}
+		.rank-user-headimg{
+			display: none;
+			position: absolute;
+			top: 9px;
+			width: 42px;
+			height: 42px;
+			background: #fff;
+			.icon-img-rank{
+				position: absolute;
+				display: block;
+				width: 16px;
+				height: 16px;
+				top: 0;
+				left: 0;
+				line-height: 16px;
+				text-align: center;
+			}
+			img{
+				width: 100%;
+				height: 100%;
+			}
+		}
+		.icon-rank-tou{
+			float: left;
+			width: 18px;
+			height: 18px;
+			margin: 9px 10px 0 0;
+			background: #398DB4;
+			border-radius: 50%;
+			line-height: 18px;
+			text-align: center;
+		}
+	}
+	.rank-list-item-cur{
+		height: 60px;
+		line-height: 60px;
+		.rank-user-headimg{
+			display: block;
+		}
+		.rank-user-name{
+			margin-left: 28px;
+		}
+		.icon-rank-tou{
+			margin-top: 21px;
+		}
+	}
+}
+.rank-list-wealth{
+
+}
+.rank-list-winner{
+	display: none;
+}
+.rank-list-ace{
+	display: none;
+}
+/*
+首页样式 E
+*/
+
+
+/*
+公共脚部 S
+*/
+footer{
+	position: relative;
+	margin-top: 110px;
+	height: 105px;
+	.bg-down{
+		position: absolute;
+		bottom: 105px;
+		width: 100%;
+		min-height:200px; 
+		background-image: url(../images/pc/bg_down.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position-y:bottom;
+		z-index: -1;
+	}
+}
+
+.footer-content{
+	@extend %width;
+	padding-top: 15px;
+	font-size: 12px;
+}
+.footer-nav{
+	@extend %clearfix;
+	li{
+		float: left;
+		&:nth-child(2n){
+			padding: 0 15px;
+		}
+	}
+}
+.copyright{
+	margin-top: 15px;
+}
+.icp{
+	margin-top: 15px;
+}
+.qrcode{
+	@extend %clearfix;
+	float: right;
+	margin-top: -60px;
+	li{
+		float: left;
+	}
+	.qrcode-title{
+		margin:20px 10px 0 0;
+		width: 110px;
+		text-align: right;
+	}
+	.qrcode-dota2{
+		width: 65px;
+		height: 65px;
+		background-position: -380px -70px;
+		margin-right: 10px;
+	}
+	.qrcode-lol{
+		width: 65px;
+		height: 65px;
+		background-position: -450px -70px;
+	}
+}
+/*
+公共脚部 E
+*/
+
+
+

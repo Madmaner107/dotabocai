@@ -1,0 +1,452 @@
+.border-circle
+{
+  border-radius: 50%;
+}
+
+.user-menu-cell .icon
+{
+  width: 19px;
+  height: 19px;
+  background-size: 19px;
+}
+
+.icon-gold-detail
+{
+  background: url(/images/icon-gold-detail.png) no-repeat;
+}
+
+.icon-redeem-record
+{
+  background: url(/images/icon-redeem-record.png) no-repeat;
+  background-size: 19px 20px !important;
+}
+
+.icon-bet-history
+{
+  background: url(/images/icon-bet-history.png) no-repeat;
+}
+
+.icon-about
+{
+  background: url(/images/icon-about.png) no-repeat;
+}
+
+.icon-book
+{
+  background: url(/images/icon-book.png) no-repeat;
+}
+
+.bet-subject-cell .icon-book
+{
+  width: 20px;
+  height: 20px;
+}
+
+/* * *
+ * Tabbar overriding
+ */
+.bar-tab .tab-item .icon, .bar-tab .tab-item.active .icon
+{
+  background-position: center;
+  background-size: 24px 24px;
+}
+
+.icon-home::before, .icon-person::before, .icon-star-filled::before, .icon-exclamation::before
+{
+    content: none;
+}
+
+.icon-home
+{
+  background: url(/images/icon-bet.png) no-repeat;
+}
+
+.icon-roulette
+{
+  background: url(/images/icon-roulette.png?1) no-repeat;
+}
+
+.icon-person
+{
+  background: url(/images/icon-shop.png) no-repeat;
+}
+
+.icon-star-filled
+{
+  background: url(/images/icon-profile.png) no-repeat;
+}
+
+.tab-item.active .icon-home
+{
+  background: url(/images/icon-bet-active.png) no-repeat;
+}
+
+.tab-item.active .icon-roulette
+{
+  background: url(/images/icon-roulette-active.png) no-repeat;
+}
+
+.tab-item.active .icon-person
+{
+  background: url(/images/icon-shop-active.png) no-repeat;
+}
+
+.tab-item.active .icon-star-filled
+{
+  background: url(/images/icon-profile-active.png) no-repeat;
+}
+
+.page-header .icon
+{
+  width: 15px;
+  height: 12px;
+  margin-right: 5px;
+  background-size: 15px 12px;
+}
+
+.icon-crown-white
+{
+  background: url(/images/icon-crown-white.png) no-repeat;
+}
+
+.icon-group-white
+{
+  background: url(/images/icon-group-white.png) no-repeat;
+  position: relative;
+  top: 1px;
+}
+
+.page-header .icon.icon-fire-white
+{
+  width: 12px;
+  height: 15px;
+}
+
+.icon-fire-white
+{
+  background: url(/images/icon-fire-white.png) no-repeat;
+  background-size: 12px 15px !important;
+  position: relative;
+  top: 2px;
+}
+
+.modal-tron-alert .icon
+{
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+
+.icon-exclamation
+{
+  background: url(/images/icon-exclamation.png) no-repeat;
+}
+
+.icon-check::before
+{
+  content: "";
+}
+
+.icon-check
+{
+  background: url(/images/icon-check.png) no-repeat;
+}
+
+.icon-warning
+{
+  background: url(/images/icon-warning.png) no-repeat;
+}
+
+.shop-menu .icon
+{
+  width: 36px;
+  height: 35px;
+  margin-right: 2px;
+  vertical-align: middle;
+  background-size: 36px 35px;
+}
+
+.icon-boss
+{
+  background: url(/images/icon-boss.png) no-repeat;
+}
+
+.icon-popular
+{
+  background: url(/images/icon-popular.png) no-repeat;
+}
+
+.icon-hot
+{
+  background: url(/images/icon-hot.png) no-repeat;
+}
+
+.section-header .icon
+{
+  background-size: 15px 12px;
+  width: 15px;
+  height: 12px;
+}
+
+.icon-crown
+{
+  background: url(/images/icon-crown.png) no-repeat;
+}
+
+.icon-group
+{
+  background: url(/images/icon-group.png) no-repeat;
+}
+
+.icon-fire
+{
+  background: url(/images/icon-fire.png) no-repeat;
+  background-size: 12px 15px !important;
+}
+
+.icon-up-down-up
+{
+  background: url(/images/icon-up-down-up@2x.png) no-repeat;
+  background-size: 5px 8px;
+}
+
+.icon-up-down-down
+{
+  background: url(/images/icon-up-down-down@2x.png) no-repeat;
+  background-size: 5px 8px;
+}
+
+.table-view-header .icon
+{
+  display: inline-block;
+  margin-left: 2px;
+  height: 8px;
+  width: 5px;
+  vertical-align: middle;
+  margin-bottom: 3px;
+}
+
+.responsive-image
+{
+  width: 100%;
+}
+
+.modal-daily-reward .icon
+{
+  width: 20px;
+  height: 20px;
+}
+
+.modal-daily-reward .icon-close-extrem-light
+{
+  background: url(/images/icon-close-extrem-light.png) no-repeat !important;
+  position: absolute;
+  background-size: 20px !important;
+  right: 10px !important;
+  top: 10px ;
+}
+
+.recap-cell .icon-disc
+{
+  width: 8px;
+  height: 8px;
+  margin-right: 12px;
+}
+
+.icon-disc
+{
+  background: url(/images/icon-rectangle-disc.png) no-repeat;
+}
+
+.team-logo-wrapper
+{
+  position: relative;
+}
+
+.team-logo-wrapper .icon
+{
+  width: 75px;
+  height: 22px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  margin-left: -38px;
+}
+
+.icon-victory
+{
+  background: url(/images/icon-victory.png) no-repeat;
+  background-size: 75px 22px;
+}
+
+.stake-unit
+{
+  position: relative;
+}
+
+.stake-unit .icon
+{
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  right: 10px;
+}
+
+.icon-question-mark
+{
+  background: url(/images/icon-question-mark.png);
+  background-size: 20px;
+}
+
+.img-redeem-help
+{
+  max-width: 289px;
+  max-height: 131px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user-avatar-small
+{
+  width: 40px;
+  height: 40px;
+}
+
+.icon-loading
+{
+  background: url(/images/icon-loading.png) no-repeat;
+  width: 16px;
+  height: 16px;
+  background-size: 16px;
+  margin-right: 5px;
+}
+
+.game-league .icon
+{
+  width: 9px;
+  height: 9px;
+  background-size: 9px;
+  margin-right: 2px;
+}
+
+.icon-report
+{
+  background: url(/images/icon-report.png);
+}
+
+.icon-logo
+{
+  background: url(/images/icon-logo.png);
+}
+
+.icon-logo-golden
+{
+  background: url(/images/icon-logo-golden.png);
+}
+
+.icon-report-golden
+{
+  background: url(/images/icon-report-golden.png);
+}
+
+.bg-roulette-entrance
+{
+  width: 100%;
+  background-color: #1a191f;
+}
+
+.roulette
+{
+  background: url(/images/bg-roulette.png) no-repeat;
+  background-size: cover !important;;
+}
+
+.bet-period-header .icon
+{
+  color: #b4b4b4;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.bet-period-header .icon-left-nav
+{
+  float: left;
+  margin-left: 15px;
+}
+
+.bet-period-header .icon-right-nav
+{
+  float: right;
+  margin-right: 15px;
+}
+
+.icon-new
+{
+  background: url(/images/icon-new.png) no-repeat;
+  width: 22px;
+  height: 9px;
+  background-size: 22px 9px;
+}
+
+.icon-wechat
+{
+  background: url(/images/icon-wechat.png) no-repeat;
+  width: 24px;
+  height: 24px;
+  background-size: 24px;
+  vertical-align: middle;
+  display: inline-block;
+  transform: translateY(-.1em);
+}
+
+.icon-alipay
+{
+  background: url(/images/icon-alipay.png) no-repeat;
+  width: 24px;
+  height: 24px;
+  background-size: 24px;
+  vertical-align: middle;
+  display: inline-block;
+  transform: translateY(-.1em);
+}
+
+.icon-loading-gif
+{
+  background: url(/images/icon-loading.gif) no-repeat;
+  width: 18px;
+  height: 18px;
+  background-size: 18px;
+}
+
+.icon-option
+{
+  background: url(/images/icon-option.png);
+  width: 11px;
+  height: 11px;
+  background-size: 11px;
+  vertical-align: middle;
+  display: inline-block;
+  transform: translateY(-.1em);
+}
+
+.icon-option-selected
+{
+  background: url(/images/icon-option-selected.png);
+  width: 11px;
+  height: 11px;
+  background-size: 11px;
+}
+
+.icon-goto
+{
+  background: url(/images/icon-goto.png);
+  width:  20px;
+  height: 20px;
+  background-size: 20px;
+}

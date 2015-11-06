@@ -1,0 +1,245 @@
+@import "common/reset";
+@import "common/function";
+@import "common/common";
+@import "common/animate";
+
+.shop-title{
+	@extend %clearfix;
+	width: 100%;
+	background-color: $bg-black;
+	// border:1px solid $border-gray;
+	.tab{
+		@extend $border-box;
+		width: 33.1%;
+		height: 40px;
+		line-height: 40px;
+		float: left;
+		text-align: center;
+		border:solid $border-gray;
+		border-width: 1px 1px 1px 0;
+		color: $font-gray;
+		&:first-child{
+			border-left: 1px;
+		}
+	}
+	.current{
+		border-top: 2px solid $border-red;
+		border-bottom: 0;
+		color: #fff;
+		.icon-richer{
+			background-position: -1200px -44px;
+		}
+		.icon-suits{
+			background-position: -1254px -47px;
+		}
+		.icon-single{
+			height: 23px;
+			background-position: -1308px -43px;
+		}
+	}
+	.icon{
+		position: relative;
+		top: 10px;
+		left: 67px;
+		width: 24px;
+		height: 18px;
+	}
+	.icon-richer{
+		background-position: -1200px -80px;
+	}
+	.icon-suits{
+		background-position: -1254px -84px;
+	}
+	.icon-single{
+		height: 23px;
+		background-position: -1308px -79px;
+	}
+}
+
+
+.shop-filter{
+	@extend $border-box;
+	height: 104px;
+	background-color: $bg-black;
+	padding: 15px 20px;
+	color: $font-gray;
+	border:solid $border-gray;
+	border-width: 0 1px 0 1px;
+	.sort{
+		@extend %clearfix;
+		float: right;
+	}
+	.tab{
+		@extend %border-box;
+		float: left;
+		width: 73px;
+		height: 30px;
+		border:1px solid $border-gray-light;
+		// border-width: 1px 0 1px 1px;
+		font-size: 12px;
+		text-align: center;
+		text-indent: -10px;
+		line-height: 30px;
+		cursor: pointer;
+	}
+	.icon{
+		position: relative;
+		top: 11px;
+		left: 50px;
+		width: 4px;
+		height: 9px;
+		background-position: -1350px -50px;
+	}
+	.time {
+		text-indent: -12px;
+		border-radius: 3px 0 0 3px;
+	}
+	.time .icon{
+		left: 60px;
+	}
+	.sales{
+		border-width: 1px 0 1px 0;
+	}
+	.price{
+		border-radius: 0 3px 3px 0;
+	}
+	.current{
+		background-color: $bg-black-dark;
+		color: $font-gold;
+		.icon{
+			background-position: -1350px -66px;
+		}
+
+	}
+}
+.shop-filter .search{
+	margin-top: 55px;
+	@extend $clearfix;
+	.tab{
+		@extend $border-box;
+		width: auto;
+		height: 30px;
+		float: left;
+		border:0;
+		text-indent: 0;
+		font-size: 14px;
+	}
+	.input{
+		display: block;
+		width: 140px;
+		height: 30px;
+		background-color: $bg-black;
+		border:1px solid $border-gray-light;
+		border-radius: 3px;
+		color: #fff;
+		text-indent: 10px;
+	}
+	.key{
+		margin-right: 10px;
+	}
+
+	.region{
+		margin-left: 30px;
+	}
+	.max{
+		width: 70px;
+	}
+	.dash{
+		padding: 0 8px;
+	}
+	.min{
+		width: 70px;
+	}
+	.confirm{
+		margin-left: 10px;
+		width: 62px;
+		background-color: $bg-red;
+		border-radius: 2px;
+		text-align: center;
+		line-height: 30px;
+		color: #fff;
+	}
+	.cancel{
+		margin-left: 10px;
+		width: 62px;
+		border-radius: 2px;
+		border: 1px solid $border-gray-light;
+	}
+
+}
+
+.shop-list{
+	position: relative;
+	.richer,.suits,.single{
+		display: none;
+	}
+	.tab{
+		padding: 10px;
+		border: 1px solid $border-gray;
+		border-top-width: 2px;
+		background-color: $bg-black;
+		height: 1015px;
+	}
+	.item{
+		@extend %border-box;
+		float: left;
+		width: 172px;
+		height: 188px;
+		border:1px solid $bg-black;
+		padding: 10px;
+		// background-color: $bg-gray;
+	}
+	.item:hover{
+		border:1px solid $border-gray;
+		background-color: $bg-gray;
+	}
+	.goods{
+		width: 150px;
+		height: 100px;
+	}
+	.price{
+		margin-top: 8px;
+		font-size: 16px;
+		color: $font-gold;
+	}
+	.name{
+		margin-top: 8px;
+		font-size: 14px;
+	}
+	.amount{
+		margin-top: 8px;
+		font-size: 14px;
+		color: $font-gray;
+	}
+}
+.page{
+	@extend %clearfix;
+	display: none;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	animation:2s;
+	.item{
+		border: 1px solid $border-gray;
+		padding:0;
+		width:24px;
+		height:24px;
+		margin-right: 10px;
+		line-height:24px;
+		text-align:center;
+		font-size: 12px;
+		border-radius: 3px;
+		color: $font-gray;
+		cursor: pointer;
+	}
+	.prev,.next{
+		width:60px;
+	}
+	.current{
+		background-color: $bg-red;
+		color: #fff;
+	}
+	.current:hover{
+		background-color: $bg-red;
+	}
+}

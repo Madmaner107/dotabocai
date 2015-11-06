@@ -1,0 +1,48 @@
+@import "common/reset";
+@import "common/function";
+@import "common/common";
+@import "common/animate";
+
+.ornament{
+	height: auto;
+}
+.ornament-list{
+	padding: 10px;
+	.item{
+		@extend %border-box;
+		@extend %clearfix;
+		width: 260px;
+		// height: 80px;
+		// border:1px solid $border-gray;
+		padding: 10px 0;
+	}
+	.img{
+		display: block;
+		float: left;
+		width: 100px;
+		height: 66px;
+		// border:0;
+	}
+	.desc{
+		margin-left: 10px;
+		float: left;
+		width: 140px;
+		height: 66px;
+		// border:1px solid $border-gray;
+	}
+	.price{
+		// margin-top: 5px;
+		font-size: 16px;
+		color: $font-gold;
+	}
+	.name{
+		overflow: hidden;
+		margin-top: 10px;
+		font-size: 14px;
+	}
+	.amount{
+		margin-top: 10px;
+		font-size: 14px;
+		color: $font-gray;
+	}
+}

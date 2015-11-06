@@ -1,0 +1,18 @@
+.azhibo-main-content {
+    margin-left: 8%;
+}
+.table{
+    font-size: 12px;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: 1px solid #ddd;
+    line-height: 1.42857;
+    padding: 5px;
+    vertical-align: middle;
+}
+.btn{
+    padding: 2px 10px;
+}
+.col-lg-10{
+    width: 91%
+}

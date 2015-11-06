@@ -1,0 +1,76 @@
+#game-list {
+    position: absolute;
+    z-index: 1;
+    top: 41px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #0a0a0a;
+    overflow: hidden;
+}
+
+#scroller {
+    position: absolute;
+    z-index: 1;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+#pulldown, #pullup {
+    height: 40px;
+    line-height: 40px;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#bet-history {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    background: #0a0a0a;
+    overflow: hidden;
+    padding-top: 12px;
+}
+
+#gold-coin-list {
+    position: absolute;
+    z-index: 1;
+    top: 41px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #0a0a0a;
+    overflow: hidden;
+}
+
+
+#product-list {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #0a0a0a;
+    overflow: hidden;
+}

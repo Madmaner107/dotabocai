@@ -1,0 +1,292 @@
+body
+{
+    background: #0A0A0A;
+}
+
+.table-view
+{
+    background: #0A0A0A;
+}
+
+.table-view .table-view-cell
+{
+    padding: 0;
+    background-image: none;
+    background: #1E2025;
+    color: #b5b5b7;
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+
+.table-view-cell-group
+{
+  padding-left: 0;
+  margin-bottom: 10px;
+}
+
+.table-view-cell-group .table-view-cell
+{
+  margin-bottom: 0;
+}
+
+.content
+{
+    background: transparent;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.table-view-cell.match-cell
+{
+    height: 150px;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: #1e2025;
+    border-top: 1px solid #303030;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.single-match.match-cell
+{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.match-cell a
+{
+  height: 100%;
+  padding: 0 !important;
+}
+
+.page-header.align-left
+{
+  padding-left: 15px;
+}
+
+.bar
+{
+    backface-visibility: hidden;
+    background-color: #0e0e10;
+    border-bottom: 1px solid #0e0e10;
+    height: 44px;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    right: 0;
+    z-index: 10;
+}
+
+.bar-tab
+{
+    border-top: 1px solid #353A3E;
+}
+
+.table-view .table-view-divider
+{
+    background: #0a0a0a;
+    color: #777;
+    background-image: none;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.match-team-home
+{
+  position: absolute;
+  left: 6%;
+  top: 0;
+}
+
+.match-team-away
+{
+  position: absolute;
+  right: 6%;
+  top: 0;
+}
+
+.match-cell-header
+{
+  position: relative;
+}
+
+.match-cell-body
+{
+    position: relative;
+    margin-top: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.game-status
+{
+  position: relative;
+  top: 15px;
+}
+
+.game-rule, .game-status
+{
+    text-align: center;
+}
+
+.game-score, .game-vs
+{
+    margin-top: 6%;
+}
+
+.match-status
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left: 5px;
+    color: #FAFAFA;
+}
+
+.match-status-inactive
+{
+  color: #F0F0F0;
+}
+
+.match-started .game-league
+{
+  color: #FAFAFA;
+}
+
+.game-score
+{
+    font-size: 36px;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.game-score.game-score-inactive
+{
+  color: #333539;
+}
+
+.game-vs
+{
+  margin-left: 20px;
+  margin-right: 20px;
+  vertical-align: middle;
+  font-size: 22px;
+  color: #FAFAFA;
+}
+
+.game-league
+{
+    color: #787878;
+}
+
+.team-logo-wrapper
+{
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-clip: padding-box;
+  border: 1px solid #79613d;
+  background: #18191A;
+  box-sizing: content-box;
+}
+
+.match-team .team-name
+{
+    color: #DDAD7B !important;
+    margin-top: 2px;
+    position: absolute;
+    width: 100%;
+}
+
+.match-team img
+{
+    width: 70px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background: #18191A;
+}
+
+.game-meta
+{
+  color: #4d9719;
+  font-size: 11px;
+}
+
+.game-bo
+{
+  display: block;
+  margin-top: 2px;
+  color: #fafafa;
+}
+
+.game-score-line
+{
+  display: block;
+  padding-top: 22px;
+}
+
+.table-view-cell > a:not(.btn)
+{
+    margin: 0;
+}
+
+/*.table-view-cell > a:not(.btn):active
+{
+  background-color: rgba(0, 0, 0, 0.5);
+}*/
+
+.user-balance
+{
+  color: #fff;
+}
+
+button.close {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.page-header
+{
+    background: #13A28D;
+    color: #FAFAFA;
+    margin-bottom: 0;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.page-header.long-content
+{
+  font-size: 11px;
+}
+
+.roulette-entrance-header
+{
+  color: #ffcb27 !important;
+}
+
+.game-on-going
+{
+  width: 100%;
+  background: url(/images/bg-game-list.png) no-repeat !important;
+  background-size: cover !important;
+  background-position: 50%;
+}
+
+.game-on-going.asia-arena-cup
+{
+  width: 100%;
+  background: url(/images/bg-asia-arena-cup.jpg?1) no-repeat !important;
+  background-size: cover !important;
+  background-position: 50%;
+}

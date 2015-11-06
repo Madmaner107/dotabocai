@@ -1,0 +1,11 @@
+.tron-table-winning-user .circle-wrapper
+{
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  box-sizing: content-box;
+  background-clip: padding-box;
+  border: 1px solid #DDAD7B !important;
+}
